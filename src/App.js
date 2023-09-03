@@ -25,12 +25,12 @@ function App() {
     <div style={{ margin: "32px" }}>
       <h1>Mis dichos favoritos en español</h1>
 
-      <p>If you want to contribute send an email to moises.trejo0[at]gmail.com</p>
 
-      <p>Submission format: [saying_id]_[name].[mp3]</p>
+      <p>If you want to contribute please send an email to <code>moises.trejo0[at]gmail.com</code> with your sound submission!</p>
+      <p style ={{marginTop: "16px"}}>Submission file name format: <code>[saying_id]_[name].mp3</code> ex: <code>1_moises.mp3</code></p>
+      <p style ={{marginTop: "16px"}}>Here is my list of saying that is constantly growing: <a href={"https://maize-crib-365.notion.site/Espa-ol-Spanish-0ddcd40efcf440e2b93a95c88d2be5d7"}>LINK</a> Cuales me faltan?</p>
 
-
-      <Stack spacing={2}>
+      <Stack spacing={2} mt={8}>
         {sayings.map((saying, index) => (
           <Accordion key={index}>
             <AccordionSummary
@@ -41,6 +41,10 @@ function App() {
               <Typography>"{saying.text}" - ({pronunciationsMap[saying.id]?.length || 0})</Typography>
             </AccordionSummary>
             <AccordionDetails>
+              <code>saying_id: {saying.id}</code>
+              
+              <Box mt={2}></Box>
+
               {pronunciationsMap[saying.id]?.map((pronunciation, index) => (
                 <div key={index} style={{ display: "flex", alignItems: "center" }}>
                   <audio controls>
