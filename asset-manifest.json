@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/spanish_sayings/static/css/main.e6c13ad2.css",
-    "main.js": "/spanish_sayings/static/js/main.b07719cb.js",
+    "main.js": "/spanish_sayings/static/js/main.cf4b7874.js",
     "static/js/787.191735a7.chunk.js": "/spanish_sayings/static/js/787.191735a7.chunk.js",
     "index.html": "/spanish_sayings/index.html",
     "main.e6c13ad2.css.map": "/spanish_sayings/static/css/main.e6c13ad2.css.map",
-    "main.b07719cb.js.map": "/spanish_sayings/static/js/main.b07719cb.js.map",
+    "main.cf4b7874.js.map": "/spanish_sayings/static/js/main.cf4b7874.js.map",
     "787.191735a7.chunk.js.map": "/spanish_sayings/static/js/787.191735a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b07719cb.js"
+    "static/js/main.cf4b7874.js"
   ]
 }
